@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <style>
+   h1{
+   color:red;
+   text-align:center;
+   }
+   th{
+   border-top:1px solid;
+   background-color:green;
+   padding:15px
+   }
+   td{
+   border-top:1px solid;
+   padding:15px;
+   }
+
+
+   </style>
+  <title>Document</title>
+ </head>
+ <body>
+<h1>Sreenivasula reddy</h1>
+<hr>
+<table align="center">
+<tr>
+<th>name</th>
+<th>location</th>
+<th>phone</th>
+</tr>
+<tr>
+<td>sreenu</td>
+<td>bangalore</td>
+<td>78965412141</td>
+</tr>
+</table>
+</body>
+</html>
