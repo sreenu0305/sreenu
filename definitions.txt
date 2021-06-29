@@ -1,0 +1,45 @@
+1 . what is list comprehension ?
+            -> One can use within a single line of code for  a functionality
+            -> These are used for creating newlists from other iterables like tuples,str,lists etc.
+             
+             syntax--> New_list = [expression(element) for element in Old_list if condition ]
+            
+             problem : num_list = [y for y in range(100) if(y%2==0 and y%5==0)]
+
+             
+2 . what is Lambda Function ?
+            -> This is an or we can call it as anonymus or nameless function
+            -> Once the cursor go to the next line, the memory allocated to the function will be removed
+            example :
+                 l = list(map(lambda x : x,"Hello world"))
+
+3.  Difference between list comprehension and lambda function ?
+            List comprehensions used to create lists, where lambdas are functions that can process like other functions and then return values
+            ex:
+              l = [0,1,2,3,4,5,6,7]
+              lamb = list(map(lamba x:x*2, l))
+              list_comp = [x*2 for x in l]
+
+4.  Difference between list comprehension and tuple comprehension?
+             
+
+
+
+5.  Difference between generator and decarator?
+
+
+
+
+6.  What is the difference between a generator and a normal function?
+
+         A generator can contain more than one yield statement.
+         When the iteration object calls the generator, execution does not start immediately.
+         Additionally, the generator automatically calls methods like iter() and next. Usually next() will iterate these functions
+         When the function gets yield, the function is paused and the control is transferred to the caller.
+         if the function terminates, the generator automatically calls the stop iteration()
+
+7.  When to use decorator?
+  
+
+
+8.  When to use generator?
